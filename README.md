@@ -1,0 +1,2 @@
+# Task_Assignment_problem
+Branch and Bound technique based solution. For each task the penalty value is calculated and each calculated penalty value is stored into high priority vector, which returns the minimum one based on their cost value. Once the optimal task is assigned to some day, this day is labelled as not available. In such a manner, we followed the tree, at each level taking the node with lowest penalty value since the main objective is minimization of the penalty.
